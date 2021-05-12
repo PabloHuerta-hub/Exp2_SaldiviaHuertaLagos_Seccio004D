@@ -1,0 +1,67 @@
+$(document).ready(function(){
+    
+   $("#btnmorado").click(function(){
+    document.getElementById('navbar').classList.add('morado');
+    document.getElementById('navbar').classList.add('morado');
+    document.getElementById('navbar').classList.add('moradoletras');
+    document.getElementById('formulario').classList.add('morado');
+    document.getElementById('footer').classList.add('morado');
+    document.getElementById('menu').classList.add('morado');
+    document.getElementById('letrasfooter').classList.add('moradoletras');
+    document.getElementById('formularioletras').classList.add('moradoletras');
+    document.getElementById('headers').classList.add('headersmorados');
+    document.getElementById('boton').classList.add('botonmorado');
+    document.getElementById('boton1').classList.add('botonmorado');
+    document.getElementById('letrasnavegacion1').classList.add('moradoletras');
+    document.getElementById('letrasnavegacion2').classList.add('moradoletras');
+    document.getElementById('letrasnavegacion3').classList.add('moradoletras');
+    document.getElementById('letrasnavegacion4').classList.add('moradoletras');
+    document.getElementById('letrasnavegacion5').classList.add('moradoletras');
+    document.getElementById('letrasnavegacion6').classList.add('moradoletras');
+    document.getElementById('letrasnavegacion7').classList.add('moradoletras');
+    document.getElementById('letrasnavegacion8').classList.add('moradoletras');
+   });
+   $("#btncafe").click(function(){
+    
+    document.getElementById('navbar').classList.add('cafe');
+    document.getElementById('navbar').classList.add('cafeletras');
+    document.getElementById('formulario').classList.add('cafe');
+    document.getElementById('footer').classList.add('cafe');
+    document.getElementById('menu').classList.add('cafe');
+    document.getElementById('letrasfooter').classList.add('cafeletras');
+    document.getElementById('formularioletras').classList.add('cafeletras');
+    document.getElementById('headers').classList.add('headerscafe');
+    document.getElementById('boton').classList.add('botoncafe');
+    document.getElementById('boton1').classList.add('botoncafe');
+    document.getElementById('letrasnavegacion1').classList.add('cafeletras');
+    document.getElementById('letrasnavegacion2').classList.add('cafeletras');
+    document.getElementById('letrasnavegacion3').classList.add('cafeletras');
+    document.getElementById('letrasnavegacion4').classList.add('cafeletras');
+    document.getElementById('letrasnavegacion5').classList.add('cafeletras');
+    document.getElementById('letrasnavegacion6').classList.add('cafeletras');
+    document.getElementById('letrasnavegacion7').classList.add('cafeletras');
+    document.getElementById('letrasnavegacion8').classList.add('cafeletras');
+   });
+   $("#btnnegro").click(function(){
+    document.getElementById('navbar').classList.add('fondonegro');
+    document.getElementById('navbar').classList.add('letraschicasnegro');
+    document.getElementById('formulario').classList.add('fondonegro');
+    document.getElementById('footer').classList.add('fondonegro');
+    document.getElementById('menu').classList.add('fondonegro');
+    document.getElementById('letrasfooter').classList.add('letraschicasnegro');
+    document.getElementById('formularioletras').classList.add('letraschicasnegro');
+    document.getElementById('headers').classList.add('headersnegro');
+    document.getElementById('boton').classList.add('botonnegro');
+    document.getElementById('boton1').classList.add('botonnegro');
+    document.getElementById('letrasnavegacion1').classList.add('letraschicasnegro');
+    document.getElementById('letrasnavegacion2').classList.add('letraschicasnegro');
+    document.getElementById('letrasnavegacion3').classList.add('letraschicasnegro');
+    document.getElementById('letrasnavegacion4').classList.add('letraschicasnegro');
+    document.getElementById('letrasnavegacion5').classList.add('letraschicasnegro');
+    document.getElementById('letrasnavegacion6').classList.add('letraschicasnegro');
+    document.getElementById('letrasnavegacion7').classList.add('letraschicasnegro');
+    document.getElementById('letrasnavegacion8').classList.add('letraschicasnegro');
+   });
+});
+
+
