@@ -1,0 +1,33 @@
+.letrascolor{
+    font-size: large; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow:-2px -2px 2px black;
+}
+.letraschicascolor{
+    text-shadow:-1px -1px 1px black;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.botoncolor{
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#db3c3c ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/*Colores letras y resaltado de navbar*/
+.fondocolor{
+    background-color:#0a0a0a;
+    opacity: 1;
+}
+.headerscolor{
+    text-shadow:-1px -1px 1px -1px #ec0915;
+    font-size: 45;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
