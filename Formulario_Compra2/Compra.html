@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="shortcut icon" href="./img/shorcuticon.png">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/"></script>
+        <title>Formulario de compra</title>
+    
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fondo letras sticky-top" id="navbar">
+        <div class="container" style="font-size: 5; ">
+          <a class="navbar-brand letras"  href="#" style="font-size: larger;"><img class="logo"src="./img/Logo.png" alt=""> <span class="sr-only">(current)</span></a>
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"  data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" >           
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarResponsive" >
+            <ul class="navbar-nav  ml-auto">
+              <li class="nav-item active" > 
+                <a class="nav-link letraschicas" id="letrasnavegacion1" href="./Inicio.html">Inicio
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link letraschicas" id="letrasnavegacion2"   href="./QuienesSomos.html">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link letraschicas" id="letrasnavegacion3"  href="./Cartelera.html">Cartelera</a>
+              </li>
+              <li>
+                <form class="form-inline form-control-sm" action="#" >
+                    <input class="form-control mr-sm-2 " type="text" placeholder="Nombre pelicula">
+                    <button class="btn btn-danger boton" id="boton" type="submit">Buscar</button>
+                  </form>
+             </li>
+          </div> 
+        </nav>  
+
+        <div class="container" align="center" style="margin-top: 3cm; margin-bottom: 3cm;">
+            <div class="jumbotron formulario" id="formulario">
+              <br>
+                <h1 class="headers " id="headers" style="margin-left: 20px;"> Compra Entradas: </h1>
+                <br>
+                <form action="#" class="letraschicas" id="formularioletras" onsubmit="return validacion()" >
+                    <div class="form-group">
+
+                <div class="form-group">
+                <label for="SeleccionPeli" style="margin-left: 25px;">Selecciona Una Pelicula</label>
+                <select class="form-control" id="SeleccionPeli">
+                    <option>--Selecciona Pelicula--</option>
+                    <option>The Batman</option>
+                    <option>Justice League Snyder's cut</option>
+                    <option>Un Amor Extraordinario</option>
+                    <option>Back to the future</option>
+                    <option>GhostBusters 2</option>
+                    <option>TopGun</option>
+                </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Entrada" style="margin-left: 25px;">Selecciona Cantidad de entradas (max 6)</label>
+                    <select class="form-control" id="Entrada">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+                <br>
+
+                <div class="form-group">
+                    <label for="Correo" style="margin-left: 25px;">Escribe tu correo</label>
+                    <input type="email" class="form-control" id="Correo" placeholder="name@example.com">
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <label for="Telefono" style="margin-left: 25px;">Telefono</label>
+                    <input type="number" class="form-control" id="Telefono" placeholder="Ingresa tu numero de Telefono">
+                  </div>
+                <br>
+                <br>
+                <h1 class="headers" style="margin-left: 20px;">Ingresa los datos para la compra</h1>
+                <div class="form-group">
+                    <label for="NombreCompleto" style="margin-left: 25px;">Nombre Completo </label>
+                    <input type="text" name="Nombre" class="form-control" style="margin-left: 60px;" required>
+                    <img src="./img/Tarjetas.png" alt="" id="img">
+                    </div>
+                    <br>
+    
+                    <div class="form-group">
+                    <label for="numerodetarjeta" style="margin-left: 25px;"> Numero de Tarjeta </label>
+                    <input type="number" name="numerodetarjeta" class="form-control" style="margin-left: 57px;" required>
+
+                    </div>
+                    <br>
+                    <div class="form-group">
+                    <label for="fechacaducidad" style="margin-left: 25px;" >Fecha de caducidad</label>
+                    <select class="form-control" id="fechacaducidad">
+                        <option>--</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <select class="form-control" id="fechacaducidad">
+                        <option>--</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                    </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="nroverificador" style="margin-left: 25px;" >Numero Verificador</label>
+                        <input type="number" id="nroverificador" class="form-control">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="Direccion" style="margin-left: 25px;">Direccion </label>
+                        <input type="text" id="Direccion" class="form-control" required>
+                        </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="Codigo Postal" style="margin-left: 25px;"> Codigo Postal </label>
+                        <input type="number" id="Codigopostal" class="form-control" required>
+    
+                        </div>
+
+                <br>
+                <br>
+
+                <label class="form-check-label" style="margin-left: 20px;">
+                    <input class="form-check-input" type="checkbox" required> Acepto terminos y condiciones de la pagina
+                  </label>
+
+                  <br>
+
+                  <label class="form-check-label" style="margin-left: 20px;">
+                    <input class="form-check-input" type="checkbox"> Si, quiero recibir notificacion de ofertas
+                  </label>
+                  <br>
+                <br>
+                <input type="submit" class="btn btn-danger boton" id="boton1" value="Comprar" >
+                <input type="reset" style="margin-left: 120px;" class="btn btn-danger boton" id="boton1" value="Borrar todo" >
+                  <br>
+                  <br>
+
+                    </div>
+
+
+                </form>
+            </div>
+        </div>  
+    
+</body>
+
+<!-- footer-->
+<footer class="py-1 fondo" id="footer" >
+    <div class="container">
+      <div class="shared-panel letraschicas" id="letrasfooter">
+        <p class="m-0 text-center " style="font-size: larger; text-align: center;"> Mario Lagos-Nicolas Saldivia-Pablo Huerta-@Copyrigth Derechos reservados</p>
+        <p class="m-0 text-center " style="font-size: larger; margin-left: 320px;">Redes sociales:</p>
+        <a target="_blank" class="shared fb st3" style="margin-left: 480px;" title="Facebook"></a>	
+        <a target="_blank" class="shared tt st3" title="Twitter"></a>
+        <a target="_blank" class="shared gp st3" title="Google+"></a>
+        <a target="_blank" class="shared ce st3" title="Email"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
