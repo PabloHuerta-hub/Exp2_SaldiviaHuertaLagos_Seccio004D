@@ -1,0 +1,91 @@
+/*tamaño imagenes*/
+.carrusel-img{
+    height: 800px;
+    width: auto;
+}
+/*Distintas letras */
+.letras{
+    font-size: x-large; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e50914;
+    text-shadow:-2px -2px 2px black;
+}
+.letraschicas{
+    text-shadow:-1px -1px 1px black;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+.letrascarrusel{
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    text-align:center ;
+}
+.letrascarrusel2{
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    top: 35%;
+
+    text-align: center;
+    position: absolute;
+}
+.boton{
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/*Colores letras y resaltado de navbar*/
+.fondo{
+    background-color:#0a0a0a;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.headers{
+    text-shadow:-1px -1px 1px -1px white;
+    font-size: 45;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e50914;
+}
+a:hover{
+    color:#e50914;
+}
+body{
+    background-color: #0a0a0a;
+}
+
+/*Redes sociales en footer*/
+.shared-panel{
+	overflow: auto;
+}
+.shared {
+	display: inline-block; 
+	width: 30px; 
+	height: 30px;
+	margin: 5px 0; 
+	padding: 0; 
+	background: url("../img/shared.png"); 
+	margin-right: 5px; 
+	cursor: pointer; 
+	border-radius: 50%; 
+}
+
+.shared.gp {background-position: 0px 0px; background-color: #E62B34;} 
+.shared.tt {background-position: 0px -30px; background-color: #43BDF0;}
+.shared.ce {background-position: 0px -60px; background-color: #8A898D;}
+.shared.fb {background-position: 0px -120px; background-color: #6081C4;}
+.st2{border-radius: 0;}
+.st3{border-radius: 5px;}
+
+
