@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cartelera</title>
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos galeria.css">
+    <link rel="shortcut icon" href="./img/shorcuticon.png">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styleblack.css">
+    <script src="js/temasdecolor.js"></script>
+    
+
+</head>
+<body class="color">
+  <nav class="navbar navbar-expand-lg fondo letras sticky-top colornavbar letrascolor" id="navbar">
+    <div class="container" style="font-size: 5; ">
+      <a class="navbar-brand letras"  href="#" style="font-size: larger;"><img class="logo"src="./img/Logo.png" alt=""> <span class="sr-only">(current)</span></a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"  data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" >           
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarResponsive" >
+        <ul class="navbar-nav  ml-auto">
+          <li class="nav-item active" > 
+            <a class="nav-link letraschicas letrascolor" id="letrasnavegacion1" href="./Inicio.html">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link letraschicas letrascolor" id="letrasnavegacion2"   href="./QuienesSomos.html">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letraschicas letrascolor" id="letrasnavegacion3"  href="./Cartelera.html">Cartelera</a>
+          </li>
+          <li>
+            <a class="nav-link letraschicas letrascolor" id="letrasnavegacion4"  href="./Compra.html">Comprar</a>
+          </li>
+          <li>
+            <a class="nav-link letraschicas letrascolor" href="FormularioRegistro.html">Registrarse</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a href="#" class="nav-link dropdown-toogle letraschicas letrascolor" id="letrasnavegacion4"  id="navbardrop" data-toggle="dropdown">Iniciar sesion</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a href="#" class="nav-link dropdown-toogle letraschicas letrascolor" id="letrasnavegacion4"  id="navbardrop" data-toggle="dropdown">Temas</a>
+                
+                <div class="dropdown-menu fondo color" id="menu">
+                  <input type="button" href="#" class="dropdown-item letraschicas "  id="btnmorado" value="Morado" onclick="colores('morado')"></input>
+                  <input type="button" href="#" class="dropdown-item letraschicas "  id="btncafe" value="Café" onclick="colores('cafe')" ></input>
+                  <input type="button" href="#" class="dropdown-item letraschicas "  id="btnnegro" value="Negro"  onclick="colores('negro')"></input>
+                </div>
+               </li>
+
+             <li>
+                <form class="form-inline form-control-sm" action="#" >
+                    <input class="form-control mr-sm-2 " type="text" placeholder="Nombre pelicula">
+                    <button class="btn btn-danger boton botoncolor" id="boton" type="submit">Buscar</button>
+                  </form>
+             </li>
+            </div>
+      </div>  
+  </nav>
+ 
+<div class="descripcionPrincipal">
+<h3 class="headerscolor">Bienvenido a la cartelera de CineDuoc, aquí encontraras todos los estrenos en cartelera</h3>
+</div>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                  <img id="peli1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong1" src="img/1.jpg" alt="imagen1" title="The Batman">
+
+                  <!-- Modal -->
+                  <div class="modal fade " id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog " role="document">
+                      <div class="modal-content color">
+                        <div class="modal-header">
+                          <h5 class="modal-title letrascolor" id="exampleModalLongTitle">The Batman</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body letrascolor">
+                          The Batman
+                          Nueva película de Batman, que estará más centrada en los cómics originales del personaje y con un estilo cercano al cine negro. Ben Affleck, tras interpretar tres veces al personaje, no repetirá en esta ocasión.
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger botoncolor" data-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                  <img id="peli1" ype="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModalLong2" src="img/2.jpg" alt="imagen2" title="Liga de la Justicia de Zack Snyder">
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content color">
+                      <div class="modal-header">
+                        <h5 class="modal-title letrascolor" id="exampleModalLongTitle">Justice League Zack Snyder</h5>
+                        <button type="button " class="close botoncolor" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body letrascolor">
+                        Con la determinación de asegurar que el sacrificio definitivo de Superman (Henry Cavill) no fue en vano,
+                        Bruce Wayne (Ben Affleck) une fuerzas con Diana Prince (Gal Gadot) para reclutar a un equipo de metahumanos que protejan el mundo de una amenaza inminente de proporciones catastróficas.
+                        La tarea es más difícil de lo que Bruce imaginaba, ya que cada uno de los reclutas deberá enfrentarse a sus propios demonios para trascender aquello que los detenía, para unirse y formar de manera definitiva una liga de héroes sin precedentes.
+                        Ahora unidos, Batman, la Mujer Maravilla, Aquaman (Jason Momoa), Cyborg (Ray Fisher) y Flash (Ezra Miller) deberán salvar al planeta de la amenaza de Steppenwolf, DeSaad y Darkseid, antes de que sea demasiado tarde.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button btn-danger" class="btn btn-danger botoncolor" data-dismiss="modal">Cerrar</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                  <img id="peli1" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong3" src="img/3.jpg" alt="imagen3" title="Un Amor Extraordinario">
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content color">
+                      <div class="modal-header">
+                        <h5 class="modal-title letrascolor" id="exampleModalLongTitle">Un Amor Extraordinario</h5>
+                        <button type="button " class="close" data-dismiss="modal" aria-label="Cerrar">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body letrascolor">
+                        Drama ambientado en irlanda sobre Joan y Tom, un veterano matrimonio que se enfrenta a un gran impacto emocional cuando a ella la diagnostican cáncer de mama.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button btn-danger" class="btn  btn-danger botoncolor" data-dismiss="modal">Cerrar</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                  <img id="peli1" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong4" src="img/4.jpg" alt="imagen2" title="Volver Al Futuro FullHD">
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content color ">
+                      <div class="modal-header">
+                        <h5 class="modal-title letrascolor" id="exampleModalLongTitle">Volver Al Futuro</h5>
+                        <button type="button " class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body letrascolor">
+                        El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina para viajar en el tiempo,
+                         un error fortuito hace que Marty llegue a 1955, año en el que sus futuros padres aún no se habían conocido. Después de impedir su primer encuentro,
+                          deberá conseguir que se conozcan y se casen; de lo contrario, su existencia no sería posible.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger botoncolor" data-dismiss="modal">Cerrar</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </br>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                    <img id="peli1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong5" src="img/5.jpg" alt="imagen2" title="GhostBuster 2 FullHD">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content color">
+                          <div class="modal-header">
+                            <h5 class="modal-title letrascolor" id="exampleModalLongTitle">GhostBusters II</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body letrascolor">
+                            Han pasado cinco años desde que los Cazafantasmas entraron por última vez en acción. El doctor Peter Venkman, notable parapsicólogo de persuasivos encantos,
+                            ha quedado relegado a maestro de ceremonias de un programa de televisión donde se discuten fenómenos psíquicos. Ray Stantz y su colega Winston Zeddemore se ganan la vida entreteniendo a niños en fiestas infantiles,
+                            y el mago tecnológico Egon Spengler continúa sus investigaciones sobre los efectos de las emociones humanas en el campo de energía psicomagnética.
+                            La relación de Dana Barrett con Venkman se disolvió; ella se casó con otro hombre y tuvo un hijo, pero el matrimonio fracasó.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger botoncolor" data-dismiss="modal">Cerrar</button>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                </div>
+              </div>
+            </br>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                    <img id="peli1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong6" src="img/6.jfif" alt="imagen2" title="Top Gun FullHD">
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content color">
+                          <div class="modal-header">
+                            <h5 class="modal-title letrascolor" id="exampleModalLongTitle">Top Gun</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body letrascolor">
+                            La Marina de los Estados Unidos ha creado una escuela de élite para pilotos con el fin de sacar una promoción de expertos en técnicas de combate. En la academia, más conocida como Top Gun,
+                             a los mejores se les entrena para ser intrépidos y fríos al mismo tiempo, capaces de no perder los nervios en situaciones extremas y de no inmutarse al romper la barrera del sonido a los mandos de un F-14.
+                              A la escuela llega el joven Maverick, famoso por su temeraria aunque brillante forma de pilotar.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger botoncolor" data-dismiss="modal">Cerrar</button>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                </div>
+              </div>
+              </div>
+
+        </br>
+    </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<footer class="py-1 colornavbar"  >
+  <div class="container">
+    <div class="shared-panel letraschicas">
+      <p class="m-0 text-center " style="font-size: larger;"> Mario Lagos-Nicolas Saldivia-Pablo Huerta-@Copyrigth Derechos reservados</p>
+      <p class="m-0 text-center letraschicas" style="font-size: larger;">Redes sociales:</p>
+      <a target="_blank" class="shared fb st3" style="margin-left: 480px;" title="Facebook"></a>	
+      <a target="_blank" class="shared tt st3" title="Twitter"></a>
+      <a target="_blank" class="shared gp st3" title="Google+"></a>
+      <a target="_blank" class="shared ce st3" title="Email"></a>
+    </div>
+  </div>
+</footer>
+    
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>       
+</html>
