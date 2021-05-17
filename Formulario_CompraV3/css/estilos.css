@@ -90,29 +90,29 @@ body{
     background-position: center;
     background-color: #0a0a0a;
 }
-
-
 /*Redes sociales en footer*/
 .shared-panel{
 	overflow: auto;
 }
+
+.formulario{
+    background-color: #0a0a0a;
+    width: 950px;
+    text-align: left;
+    border-radius: 20px;
+    
+}
+
 .shared {
 	display: inline-block; 
 	width: 30px; 
 	height: 30px;
 	margin: 5px 0; 
 	padding: 0; 
-    background: url("../img/shared.png"); 
+	background: url("../img/shared.png"); 
 	margin-right: 5px; 
 	cursor: pointer; 
 	border-radius: 50%; 
-}
-.formulario{
-    background-color: #441913;
-    width: 950px;
-    text-align: left;
-    border-radius: 20px;
-    
 }
 .shared.gp {background-position: 0px 0px; background-color: #E62B34;} 
 .shared.tt {background-position: 0px -30px; background-color: #43BDF0;}
@@ -120,12 +120,6 @@ body{
 .shared.fb {background-position: 0px -120px; background-color: #6081C4;}
 .st2{border-radius: 0;}
 .st3{border-radius: 5px;}
-
-
-
-
-
-
 /*Colores letras y resaltado de navbar*/
 .fondonegro{
     background-color:#0a0a0a;
