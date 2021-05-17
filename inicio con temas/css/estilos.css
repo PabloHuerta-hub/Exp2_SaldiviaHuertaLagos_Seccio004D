@@ -56,11 +56,73 @@
     text-shadow:-1px -1px 1px -1px white;
     font-size: 45;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headers span{
+    font-size: 50pt;
+    font-weight: bold;
+    position: relative;
+    font-family: "fredoka one";
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+.headers span::before{
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+}
+.headers span::after{
+    content: var(--l);
+    position: absolute;
+    top: 80%;
+    left:0;
+    filter: blur(30px);
+    transform: rotateX(50deg);
+}
+.headers span:hover{
+    filter: contrast(250%);
+}
+.headers span:nth-child(1){
     color: #e50914;
 }
-a:hover{
-    color:#e50914;
+.headers span:nth-child(2){
+    color: #e50914;
 }
+.headers span:nth-child(3){
+    color: #e50914;
+}
+.headers span:nth-child(4){
+    color: #e50914;
+}
+.headers span:nth-child(5){
+    color: #e50914;
+}
+.headers span:nth-child(6){
+    color: #e50914;
+}
+.headers span:nth-child(7){
+    color: #e50914;
+}
+.headers span:nth-child(8){
+    color: #e50914;
+}
+.headers span:nth-child(9){
+    color: #e50914;
+}
+.headers span:nth-child(10){
+    color: #e50914;
+}
+.headers span:nth-child(11){
+    color: #e50914;
+}
+.cine{
+    text-shadow:-1px -1px 1px -1px white;
+    font-size: 45;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 body{
     background-color: #0a0a0a;
 }
